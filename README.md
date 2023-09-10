@@ -1,6 +1,6 @@
 # Original fault localization results of ChatGPT
 
-Welcome to the repository where ChatGPT (both versions 3.5 and 4) responses are stored pertaining to fault localization on Defects4J.
+Welcome to the repository where ChatGPT (version 3.5 and 4) responses are stored for fault localization on Defects4J.
 
 ## Repository Structure and Details:
 
@@ -17,7 +17,7 @@ Welcome to the repository where ChatGPT (both versions 3.5 and 4) responses are 
 
 ### 3. Top-Level Directory Structure:
 
-- All folders at the root directory have identical internal structures.
+- All folders in the root directory have identical internal structures.
 - Each primary sub-directory holds responses related to the six Defects4J programs.
 
 ### 4. Second-Level Directory:
