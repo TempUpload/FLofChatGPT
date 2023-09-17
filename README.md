@@ -1,8 +1,10 @@
 # Original fault localization results of ChatGPT
 
-Welcome to the repository where ChatGPT (version 3.5 and 4) responses are stored for fault localization on Defects4J.
+This repository contains all data related to the paper "**Large Language Models in Fault Localisation**".
 
 ## Repository Structure and Details (Defects4J):
+
+The data in the root directory (except the NewlyCollectedDataset folder) are all experimental results belonging to Defects4J
 
 ### 1. File Types:
 
@@ -34,7 +36,7 @@ Welcome to the repository where ChatGPT (version 3.5 and 4) responses are stored
 
 ## Repository Structure and Details (Newly Collected Dataset):
 
-### The NewlyCollectedDataset folder contains:
+### The **NewlyCollectedDataset** folder contains:
 Programs (both faulty and corrected versions).
 Task descriptions.
 Test cases.
@@ -78,7 +80,8 @@ Upon loading the content of the files using Python's `pickle.load`, you will get
 
 ### 1. For RQ1 & RQ2:
 
-- Each item in the list represents the fault localization result for each function in that particular version.
+- For Defects4J, each item in the list represents the fault localization result for each function in that particular version.
+- For Newly collected data, each item in the list represents the fault localization result for entirely program.
   
 ### 2. For RQ3:
 
