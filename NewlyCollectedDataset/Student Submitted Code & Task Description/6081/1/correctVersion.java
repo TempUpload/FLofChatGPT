@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Main {	final static Scanner sc = new Scanner(System.in);	public static void main(String[] args) {		int n = sc.nextInt();		int height = sc.nextInt();		int sum = 0;		while(n-- > 0) {			int k = sc.nextInt();			if(k >= height) {				sum++;			}		}		System.out.println(sum);	}}

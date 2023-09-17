@@ -1,0 +1,1 @@
+import java.util.*;public class Main {    public static void main(String[] args) {        Scanner cin = new Scanner(System.in);        int t = cin.nextInt();        for(int i=0;i<t;i++)        {            int n = cin.nextInt();            System.out.println(3*(n-1)+1);        }    }}

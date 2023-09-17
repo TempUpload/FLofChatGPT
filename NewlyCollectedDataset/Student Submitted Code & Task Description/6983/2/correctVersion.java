@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Main {	static Scanner sc = new Scanner(System.in);	public static void main(String[] args) {		long a = sc.nextLong();		long b = sc.nextLong();		long c = sc.nextLong();		long d = sc.nextLong();		System.out.println(Math.max(Math.max(a*c,b*d),Math.max(b*c,a*d)));	}}

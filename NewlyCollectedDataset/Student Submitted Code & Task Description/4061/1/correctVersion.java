@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Main{    public static void main(String args[]){        Scanner sc=new Scanner(System.in);        int m,a,n,b;        m=sc.nextInt();        a=sc.nextInt();        n=sc.nextInt();        b=sc.nextInt();        System.out.println("s="+Math.abs((m*a-n*b)/(b-a)));    }}

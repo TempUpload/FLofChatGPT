@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Main {    public static void main(String[] args) {        Scanner input = new Scanner(System.in);        long n=input.nextLong();        int m=input.nextInt();        for (int i = 1; i < 100; i++) {            if (Math.pow(m,i)>n){                System.out.println(i);                break;            }        }    }}

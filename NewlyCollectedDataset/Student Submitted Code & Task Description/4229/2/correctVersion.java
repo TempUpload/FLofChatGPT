@@ -1,0 +1,1 @@
+public class Main {	public static void main(String args[]){	boolean door[];	door=new boolean[101];	int j,k,x;	for(j=2;j<=100;j++){		for(k=0;k<100;k+=j){			door[k]=!door[k];		}	}	for(x=1;x<=100;x++){		if(door[x]==false){		System.out.println(x);		}	}	}}

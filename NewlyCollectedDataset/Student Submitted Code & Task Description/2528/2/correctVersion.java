@@ -1,0 +1,1 @@
+import java.util.Scanner;public class Main {    public static void main(String[] args) {        int N = 0;        Scanner imput = new Scanner(System.in);        N = imput.nextInt();        System.out.println(((int)Math.pow(2,N)+1));    }}
