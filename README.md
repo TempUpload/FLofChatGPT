@@ -2,7 +2,7 @@
 
 Welcome to the repository where ChatGPT (version 3.5 and 4) responses are stored for fault localization on Defects4J.
 
-## Repository Structure and Details:
+## Repository Structure and Details (Defects4J):
 
 ### 1. File Types:
 
@@ -31,6 +31,46 @@ Welcome to the repository where ChatGPT (version 3.5 and 4) responses are stored
     * The first variable `{none|4}`: A blank value indicates that the response is from ChatGPT-3.5. A value of '4' indicates the response is from ChatGPT-4.
     * The second variable `{none|_n}`: Represents the iteration number for repeated experiments. For any version of a program, there will be at least 5 iterations with the same ChatGPT version. Thus, there are a minimum of five distinct values this variable can have in a single folder.
     * The third variable `{out|txt}`: Represents the file format as discussed above.
+
+## Repository Structure and Details (Newly Collected Dataset):
+
+### The NewlyCollectedDataset folder contains:
+Programs (both faulty and corrected versions).
+Task descriptions.
+Test cases.
+
+### Directory Structure
+
+NewlyCollectedDataset/  
+│  
+├── ChatGPTAnswer-RQ1 (Web Interface)/  
+│   ├──  1000/ //The number of the task in its original system  
+│   │   ├──  1/   //The number of the code under the task  
+│   │   ├──  2/   
+│   │   └──  ....   
+│   ├──  1001/  
+│   └──  ....  
+├── Student Submitted Code & Task Description/  
+│   ├──  description  //Task description, read through python's `pickle.load`  
+│   ├──  1000/  
+│   │   ├──  1/  
+│   │   │   ├──  correctVersion.java  
+│   │   │   ├──  faultyVersion.java    
+│   │   │   └──  faultLocation.txt  //fault position, line number starts from 1  
+│   │   ├──  2/   
+│   │   └──  ....   
+│   ├──  1001/  
+│   └──  ....  
+├── TestCase/  
+│   ├──  1000/  
+│   │   ├──  Sample.in  //input of single test sase  
+│   │   ├──  Sample.out    //output of single test sase  
+│   │   └──  ....  
+   │   ├──  2/   
+   │   └──  ....   
+   ├──  1001/  
+    └──  ....  
+
 
 ## File Content Description
 
