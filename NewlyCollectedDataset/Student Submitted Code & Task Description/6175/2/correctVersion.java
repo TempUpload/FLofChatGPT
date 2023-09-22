@@ -1,1 +1,0 @@
-import java.util.*;import java.math.*;//Ipublic class Main {	public static void main (String[] args)	{		Scanner in=new Scanner(System.in);		long k=in.nextLong();		long min=100000000000000L;		for(long i=1;i<=Math.sqrt(k);i++)		{			if(k%i==0)			{				long y=k/i;				if(min>(i+y-2))					min=i+y-2;			}		}		System.out.println(min);	}}

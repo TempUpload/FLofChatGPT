@@ -48,20 +48,16 @@ NewlyCollectedDataset/
 │  
 ├── ChatGPTAnswer-RQ1 (Web Interface)/  
 │   ├──  1000/ //The number of the task in its original system  
-│   │   ├──  1/   //The number of the code under the task  
-│   │   ├──  2/   
-│   │   └──  ....   
+│   │   └──  1/   //One code under the task    
 │   ├──  1001/  
 │   └──  ....  
 ├── Student Submitted Code & Task Description/  
 │   ├──  description  //Task description, read through python's `pickle.load`  
 │   ├──  1000/  
-│   │   ├──  1/  
+│   │   └──  1/  
 │   │   │   ├──  correctVersion.java  
 │   │   │   ├──  faultyVersion.java    
 │   │   │   └──  faultLocation.txt  //fault position, line number starts from 1  
-│   │   ├──  2/   
-│   │   └──  ....   
 │   ├──  1001/  
 │   └──  ....  
 ├── TestCase/  
@@ -69,10 +65,8 @@ NewlyCollectedDataset/
 │   │   ├──  Sample.in  //input of single test sase  
 │   │   ├──  Sample.out    //output of single test sase  
 │   │   └──  ....  
-   │   ├──  2/   
+   │   ├──  1001/   
    │   └──  ....   
-   ├──  1001/  
-    └──  ....  
 
 
 ## File Content Description
