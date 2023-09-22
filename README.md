@@ -5,7 +5,7 @@ This repository contains all data related to the paper "**Large Language Models 
 
 ## Repository Structure and Details (Defects4J):
 
-The data in the root directory (except the NewlyCollectedDataset folder) are all experimental results belonging to Defects4J
+The data in the root directory (except the NewlyCollectedDataset (StuDefects) folder) are all experimental results belonging to Defects4J
 
 ### 1. File Types:
 
@@ -35,16 +35,16 @@ The data in the root directory (except the NewlyCollectedDataset folder) are all
     * The second variable `{none|_n}`: Represents the iteration number for repeated experiments. For any version of a program, there will be at least 5 iterations with the same ChatGPT version. Thus, there are a minimum of five distinct values this variable can have in a single folder.
     * The third variable `{out|txt}`: Represents the file format as discussed above.
 
-## Repository Structure and Details (Newly Collected Dataset):
+## Repository Structure and Details (Newly Collected Dataset, StuDefects):
 
-### The **NewlyCollectedDataset** folder contains:
+### The **StuDefects** folder contains:
 Programs (both faulty and corrected versions).
 Task descriptions.
 Test cases.
 
 ### Directory Structure
 
-NewlyCollectedDataset/  
+NewlyCollectedDataset (StuDefects)/  
 │  
 ├── ChatGPTAnswer-RQ1 (Web Interface)/  
 │   ├──  1000/ //The number of the task in its original system  
@@ -75,8 +75,7 @@ Upon loading the content of the files using Python's `pickle.load`, you will get
 
 ### 1. For RQ1 & RQ2:
 
-- For Defects4J, each item in the list represents the fault localization result for each function in that particular version.
-- For Newly collected data, each item in the list represents the fault localization result for entirely program.
+- Each item in the list represents the fault localization result for each function in that particular version.
   
 ### 2. For RQ3:
 
