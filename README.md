@@ -3,7 +3,7 @@
 This repository contains all data related to the paper "**Large Language Models in Fault Localisation**".
 
 
-## Repository Structure and Details (Defects4J):
+## Original Response of ChatGPT (Defects4J):
 
 The data in the root directory (except the NewlyCollectedDataset (StuDefects) folder) are all experimental results belonging to Defects4J
 
@@ -35,7 +35,7 @@ The data in the root directory (except the NewlyCollectedDataset (StuDefects) fo
     * The second variable `{none|_n}`: Represents the iteration number for repeated experiments. For any version of a program, there will be at least 5 iterations with the same ChatGPT version. Thus, there are a minimum of five distinct values this variable can have in a single folder.
     * The third variable `{out|txt}`: Represents the file format as discussed above.
 
-## Repository Structure and Details (Newly Collected Dataset, StuDefects):
+## Original Response of ChatGPT (Newly Collected Dataset, StuDefects):
 
 ### The **StuDefects** folder contains:
 Programs (both faulty and corrected versions).
@@ -105,3 +105,33 @@ Here's a JSON example that represents the format of the answers:
         }
     ]
 }
+```
+## Executable Code
+
+This repository contains the open-source code for our experiments. The code is organized in the `Code` folder, where you'll find two main files: `API.py` and `Interface.py`. `API.py` is utilized for experiments involving the OpenAI official API, while `Interface.py` is used for experiments via a web interface.
+
+### Requirements
+
+Before you can run the code, ensure you have Python installed along with the following libraries:
+- `undetected_chromedriver`
+- `selenium`
+
+Without these libraries, interaction with the ChatGPT web page will not be possible.
+
+### Repository Structure
+
+To facilitate the reproduction of our experiments, we have organized the code, test cases, and error logs in a readable and straightforward manner within the `Code` folder (`sourceofCodeContext (Defects4J).zip` and `sourceofCodeContext (New Dataset).zip`). You only need to modify the `readFileRootPath` variable in the code to the corresponding path where your dataset is extracted.
+
+### Configuration
+
+1. **API.py**:
+   - You'll need to provide your own OpenAI API token in the `token` variable.
+   
+2. **Interface.py**:
+   - Run `Interface.py` in Debug mode within your IDE.
+   - Set a breakpoint at line 347 (which contains: `deal(driver,type)`).
+   - When the program halts at this point, manually complete the ChatGPT login, then continue running the code within your IDE.
+
+### Notes
+
+Be aware that ChatGPT often updates its DOM structure, and the DOM might slightly vary for different users accessing ChatGPT. Therefore, if an error occurs while running `Interface.py`, you may need to adjust the code according to the actual situation.
