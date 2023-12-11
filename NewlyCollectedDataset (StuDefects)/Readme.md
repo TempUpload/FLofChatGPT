@@ -1,5 +1,8 @@
-|Dynamic Programming| |
+# Algorithmic Classification of Datasets
+
+|No| Algorithm |
 |:----|:----|
+| Dynamic Programming| Total: 7 |
 |1426|(Dynamic Programming)|
 |2089|(Dynamic Programming)|
 |2258|(Dynamic Programming)|
@@ -7,7 +10,7 @@
 |6301|(Dynamic Programming)|
 |6391|(Dynamic Programming)|
 |6160|(Dynamic Programming - Fibonacci Sequence)|
-|Structured Data Processing| |
+|Structured Data Processing| Total: 24 |
 |2150|(Set Operations)|
 |3711|(Array Analysis)|
 |4334|(Hash Table Processing)|
@@ -32,7 +35,7 @@
 |6082|(Array Indexing)|
 |6757|(Array Summation)|
 |4455|(String Search)|
-|Mathematical and Arithmetic Computations| |
+|Mathematical and Arithmetic Computations| Total: 14 |
 |2169|(Large Number Operations)|
 |2528|(Mathematical Computations)|
 |4342|(Mathematical Computations)|
@@ -47,16 +50,16 @@
 |3321|(Large Number Processing)|
 |6205|(Number Base Conversion)|
 |4462|(Number Base Conversion)|
-|Search Algorithms| |
+|Search Algorithms| Total: 2 |
 |2257|(DFS - Depth First Search)|
 |6039|(BFS - Breadth First Search)|
-|Recursion and Iteration Algorithms| |
+|Recursion and Iteration Algorithms| Total: 5 |
 |2112|(Basic Iteration)|
 |3310|(Recursive Functions)|
 |4451|(Recursive Functions)|
 |6041|(Recursive Functions)|
 |6052|(Fibonacci Sequence)|
-|Sorting and Conditional Logic| |
+|Sorting and Conditional Logic| Total: 8 |
 |2375|(Conditional Judgments)|
 |4102|(Loop Enumeration)|
 |4229|(Array Operations)|
@@ -65,7 +68,7 @@
 |6196|(Conditional Judgments)|
 |6402|(Conditional Operations)|
 |6771|(Array Sorting and Comparison)|
-|Basic Programming Skills| |
+|Basic Programming Skills| Total: 11 |
 |4056|(Basic Output)|
 |4057|(Number Processing)|
 |4061|(Mathematical Calculation)|
@@ -77,11 +80,11 @@
 |6778|(Basic Output)|
 |6073|(Number Processing)|
 |6174|(Number Processing)|
-|Number Theory and Combinatorics| |
+|Number Theory and Combinatorics| Total: 3 |
 |4427|(Prime Number Generation)|
 |4431|(Prime and Palindrome Number Detection)|
 |6451|(Prime Number Detection)|
-|Time and Sequence Processing| |
+|Time and Sequence Processing| Total: 3 |
 |6457|(Date Processing)|
 |4332|(Data Grouping and Statistics)|
 |6169|(Set Operations and Sorting)|
